@@ -1,0 +1,2 @@
+Today we will write a simple program which will count the number of words.
+It will be a program that will help us practice with the standard Library.
