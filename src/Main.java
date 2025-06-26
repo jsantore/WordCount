@@ -19,6 +19,9 @@ void main(){
         userInput = newInput;
     }
     var wordCount = countWords(userInput);
+    for(var entry: wordCount.entrySet()){
+        System.out.println(entry.getKey() + " :\t " + entry.getValue());
+    }
 
 //    System.out.println(wordCount);
 }
